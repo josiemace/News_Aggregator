@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.News_Aggregator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!--PRIMARY -->
+        <item name="colorPrimary">@color/red_orange</item>
+        <item name="colorPrimaryVariant">@color/salmon</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!--SECONDARY-->
+        <item name="colorSecondary">@color/teal</item>
+        <item name="colorSecondaryVariant">@color/yellow</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!--STATUS BAR-->
+        <item name="android:statusBarColor" tools:targetAPI="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.News_Aggregator" parent="Base.Theme.News_Aggregator" />
+</resources>
